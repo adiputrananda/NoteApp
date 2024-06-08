@@ -63,7 +63,7 @@
                 android:maxLines="5"
                 android:minLines="3"
                 android:text='@={activity.description}'
-                app:passwordToggleEnabled="false" />
+                app:passwordToggleEnabled="true" />
         </com.google.android.material.textfield.TextInputLayout>
         <TextView
             android:layout_width="match_parent"

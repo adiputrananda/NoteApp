@@ -24,7 +24,7 @@
             android:paddingLeft="@dimen/_8sdp"
             android:paddingRight="@dimen/_8sdp"
             android:text="Title"
-            android:textColor="@android:color/black"
+            android:textColor="@color/textColorButton"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -39,7 +39,7 @@
             android:paddingLeft="@dimen/_8sdp"
             android:paddingRight="@dimen/_8sdp"
             android:text="Description"
-            android:textColor="@android:color/black"
+            android:textColor="@color/textColorButton"
             android:textSize="18sp" />
 
         <TextView
@@ -53,7 +53,7 @@
             android:onClick="editData"
             android:padding="@dimen/_16sdp"
             android:text="Edit"
-            android:textColor="@color/white" />
+            android:textColor="@color/textColorButton" />
 
         <TextView
             android:layout_width="match_parent"
@@ -66,6 +66,6 @@
             android:onClick="deleteData"
             android:padding="@dimen/_16sdp"
             android:text="Delete"
-            android:textColor="@color/white" />
+            android:textColor="@color/textColorButton" />
     </LinearLayout>
 </layout>
